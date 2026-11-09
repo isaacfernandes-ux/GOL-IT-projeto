@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | Verbo & Verso</title>
+    <link rel="stylesheet" href="auth.css">
+    <script src="auth.js"></script>
+</head>
+<body>
+
+    <main class="auth-container">
+        <div class="logo">
+            <h1>V&V</h1>
+            <h2>VERBO & VERSO</h2>
+        </div>
+
+        <section class="auth-content">
+            <h3>Criar uma conta</h3>
+            <p class="subtitulo">
+                Cadastre-se para acessar o Verbo & Verso
+            </p>
+
+            <form id="cadastroForm">
+
+                <label for="nome">Nome</label>
+                <div class="campo">
+                    <span>♙</span>
+                    <input type="text" id="nome"
+                        placeholder="Digite seu nome" required>
+                </div>
+
+                <label for="email">E-mail</label>
+                <div class="campo">
+                    <span>✉</span>
+                    <input type="email" id="email"
+                        placeholder="Digite seu e-mail" required>
+                </div>
+
+                <label for="senha">Senha</label>
+                <div class="campo">
+                    <span>🔒</span>
+                    <input type="password" id="senha"
+                        placeholder="Digite sua senha"
+                        minlength="4" required>
+                </div>
+
+                <label for="confirmarSenha">Confirmar senha</label>
+                <div class="campo">
+                    <span>🔒</span>
+                    <input type="password" id="confirmarSenha"
+                        placeholder="Digite a senha novamente"
+                        minlength="4" required>
+                </div>
+
+                <p id="mensagem" class="mensagem"></p>
+
+                <button type="submit">Criar conta</button>
+            </form>
+
+            <div class="separador">
+                <span></span>
+                ou
+                <span></span>
+            </div>
+
+            <p class="rodape">
+                Já possui uma conta?
+                <a href="login.html">Entrar</a>
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>

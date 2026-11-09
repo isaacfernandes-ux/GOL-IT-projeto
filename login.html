@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Verbo & Verso</title>
+    <link rel="stylesheet" href="auth.css">
+    <script src="auth.js"></script>
+</head>
+<body>
+
+    <main class="auth-container">
+        <div class="logo">
+            <h1>V&V</h1>
+            <h2>VERBO & VERSO</h2>
+        </div>
+
+        <section class="auth-content">
+            <h3>Bem-vindo de volta!</h3>
+            <p class="subtitulo">Entre para acessar o Verbo & Verso</p>
+
+            <form id="loginForm">
+
+                <label for="email">E-mail</label>
+                <div class="campo">
+                    <span>✉</span>
+                    <input type="email" id="email"
+                        placeholder="Digite seu e-mail" required>
+                </div>
+
+                <label for="senha">Senha</label>
+                <div class="campo">
+                    <span>🔒</span>
+                    <input type="password" id="senha"
+                        placeholder="Digite sua senha" required>
+                </div>
+
+                <p id="mensagem" class="mensagem"></p>
+
+                <button type="submit">Entrar</button>
+            </form>
+
+            <div class="separador">
+                <span></span>
+                ou
+                <span></span>
+            </div>
+
+            <p class="rodape">
+                Não possui uma conta?
+                <a href="cadastro.html">Cadastre-se</a>
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>
